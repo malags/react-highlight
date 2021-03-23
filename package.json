@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --env.mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
-    "test": "mocha ./test/.setup.js ./test/**/*.spec.js"
+    "test": "mocha ./test/.setup.js ./test/**/*.spec.js",
+    "prepare": "webpack --env.mode=build"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
